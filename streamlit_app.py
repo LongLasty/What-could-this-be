@@ -30,13 +30,13 @@ def main():
                     st.title("🎈🎂🎉🎊HAPPY BIRTHDAY ❗ ❗🎉🎊 🎈, May all your wishes come true.")
                     st.balloons()
                     st.subheader("Anyways, Here is a message I got from your favourite person(Hopefully).")
-                    st.image("Screenshot 2024-04-27 073656.png", use_column_width= True)
+                    st.image("Screenshot 2024-04-27 073656.png", use_column_width==True)
                                
                 if c == "Nope" :
                     st.title("Your lying😹, It is today, anyways 🎈🎂🎉🎊HAPPY BIRTHDAY ❗ ❗🎉🎊 🎈!")
                     st.balloons()
                     st.subheader("You are such a liar, anyways I have a message for you from someone who calls themselves 'Your admirer'.")
-                    st.image =("Lies.png",use_column_width=True
+                    st.image =("Lies.png",use_column_width==True
                               )
                 if c == "I dont want to say":
                     st.write("OK then")
