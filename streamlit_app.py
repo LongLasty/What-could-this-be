@@ -30,8 +30,7 @@ def main():
                     st.title("🎈🎂🎉🎊HAPPY BIRTHDAY ❗ ❗🎉🎊 🎈, May all your wishes come true.")
                     st.balloons()
                     st.subheader("Anyways, Here is a message I got from your favourite person(Hopefully).")
-                    img = img.open("Screenshot 2024-04-27 073656.png")
-                    st.image =(img,
+                    st.image("Screenshot 2024-04-27 073656.png",
                                width == 600,
                                caption == "msg",
                                channel == "RGB"
@@ -40,8 +39,7 @@ def main():
                     st.title("Your lying😹, It is today, anyways 🎈🎂🎉🎊HAPPY BIRTHDAY ❗ ❗🎉🎊 🎈!")
                     st.balloons()
                     st.subheader("You are such a liar, anyways I have a message for you from someone who calls themselves 'Your admirer'.")
-                    imag = imag.open("Lies.png")
-                    st.image =(imag,
+                    st.image =("Lies.png",
                                width==600,
                                caption == "LIAR",
                                channel == "RGB")
