@@ -1,5 +1,4 @@
 import streamlit as st
-from PIL import image
 
 def main():
     st.set_page_config(
