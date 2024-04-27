@@ -28,7 +28,7 @@ def main():
                          i)
                 if c == "Yeah, it is" :
                     music = "Happy birthday its your birthday lemon.mp3"
-                    st.audio(music, format="audio/mp3)
+                    st.audio(music, format="audio/mp3")
                     st.title("🎈🎂🎉🎊HAPPY BIRTHDAY ❗ ❗🎉🎊 🎈, May all your wishes come true.")
                     st.balloons()
                     st.subheader("Anyways, Here is a message I got from your favourite person(Hopefully).")
@@ -36,7 +36,7 @@ def main():
                                
                 if c == "Nope" :
                     music = "Happy birthday its your birthday lemon.mp3"
-                    st.audio(music, format="audio/mp3)
+                    st.audio(music, format="audio/mp3")
                     st.title("Your lying😹, It is today, anyways 🎈🎂🎉🎊HAPPY BIRTHDAY ❗ ❗🎉🎊 🎈!")
                     st.balloons()
                     st.subheader("You are such a liar, anyways I have a message for you from someone who calls themselves 'Your admirer'.")
