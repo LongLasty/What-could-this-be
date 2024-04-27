@@ -36,7 +36,7 @@ def main():
                     st.title("Your lying😹, It is today, anyways 🎈🎂🎉🎊HAPPY BIRTHDAY ❗ ❗🎉🎊 🎈!")
                     st.balloons()
                     st.subheader("You are such a liar, anyways I have a message for you from someone who calls themselves 'Your admirer'.")
-                    st.image =("Lies.png",use_column_width=True
+                    st.image =("Lies.png", use_column_width=True
                               )
                 if c == "I dont want to say":
                     st.write("OK then")
