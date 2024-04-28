@@ -54,7 +54,7 @@ def main():
                     if x:
                         st.audio("shesh.m4a",format="audio/m4a")
                     if y:st.audio("rude.m4a",format="audio/m4a")
-            else:
+            if x:
                 st.write("Okay, maybe it isn't today or did you somehow make a mistake?")
 
 
