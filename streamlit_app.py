@@ -23,7 +23,7 @@ def main():
             st.write("So your", age, "years old.")
             x = st.text_input("Oh thats cool, wait let me compare my age, when's your birthday?[MONTH(xx)/DAY(xx(]")
             if x == "04/27":
-                st.write("Wait whatt, Isn't that today???")
+                st.write("Wait whatt, Isn't that today???, and wth your older than me now ;-;")
                 i = ["I dont want to say", "Yeah, it is", "Nope", "Special"]
                 c = st.radio("Is it?",
                              i)
