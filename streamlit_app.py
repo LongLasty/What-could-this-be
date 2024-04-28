@@ -7,7 +7,7 @@ def main():
         page_icon="❔"
     )
     st.title("HELLO THERE!!, You can call me LongLastBot.")
-    st.markdown("===")
+    st.markdown("-------------------------------------------------")
     st.subheader("Answer some of these questions.")
     # Question 1
     name = st.text_input("What is your full name?")
@@ -56,11 +56,6 @@ def main():
                     if y:st.audio("rude.m4a",format="audio/m4a")
             if x:
                 st.write("Okay, maybe it isn't today or did you somehow make a mistake?")
-
-
-if __name__ == "__main__":
-    main()
-
 
 
 if __name__ == "__main__":
